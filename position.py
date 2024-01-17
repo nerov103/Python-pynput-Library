@@ -1,8 +1,16 @@
 from pynput.mouse import Controller
+import time
+
+
+time.sleep(1)
 
 mouse = Controller()
-create_pristion = mouse.position
+# x = mouse.position
 
-print(f"Your Mouse Pointer Create Proction {create_pristion}")
+while True:
+    print(f"Your Mouse Pointer Create Proction {mouse.position}")
 
 
+
+
+#https://github.com/attreyabhatt/Python-Keylogger
