@@ -1,21 +1,25 @@
-from pynput.keyboard import Key, Controller
-import pynput
-
-keyboard = Controller()
-# print(dir(pynput.keyboard.Key.space))
+from pynput.keyboard import Controller, Key
+from time import sleep
 
 
-keyboard.press(Key.space)
-keyboard.release(Key.space)
+keybord = Controller()
+
+sleep(2)
+keybord.press(Key.space)
+keybord.release(Key.space)
+print("Fast Space Dan!")
+sleep(1)
+# keybord.press(Key.space)
+# keybord.release(Key.space)
+keybord.press('X')
+keybord.press(Key.enter)
+keybord.release(Key.enter)
 
 
-keyboard.press('a')
-keyboard.release('a')
+print("Program end!")
 
+"""in this cod ima
+ how how to use pynput 
+ library press and Key.release method
+ """
 
-
-
-
-
-
-  
