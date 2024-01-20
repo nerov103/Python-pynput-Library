@@ -18,3 +18,4 @@ keyboard.release('A')
 with keyboard.pressed(Key.shift):
     keyboard.press('a')
     keyboard.release('a')
+

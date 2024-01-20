@@ -1,6 +1,6 @@
 from pynput.mouse import Listener, Button, Controller
 
-print(dir(Listener))
+
 
 # def one_click(x, y, button, pressed):
 #     if button == Button.left:
@@ -55,6 +55,10 @@ on  mouse pointer
 
 
 
+import os
+
+get_url = os.name
+print(get_url)
 
 
 
